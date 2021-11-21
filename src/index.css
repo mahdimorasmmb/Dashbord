@@ -8,3 +8,7 @@ body {
   background-color: #f7f8fa;
   font-family: "Arimo", sans-serif;
 }
+
+main {
+  margin-left: 65px;
+}

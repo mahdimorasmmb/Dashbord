@@ -1,6 +1,37 @@
 .searchBar {
-  width: 200px;
-  height: 40px;
+  width: 280px;
+  height: 45px;
   border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  justify-content: space-around;
+  box-shadow: 1px 1px 5px 0px #c3cad9;
+}
+
+.search {
+  cursor: pointer;
+
+  margin: 0px 15px;
+}
+.input {
   border: none;
+  outline: none;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 700;
+
+  height: 100%;
+}
+
+.input::placeholder {
+  color: #c3cad9;
+}
+
+.arrow {
+  transform: rotate(90deg);
+  cursor: pointer;
+
+  margin-right: 15px;
 }

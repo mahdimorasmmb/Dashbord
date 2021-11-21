@@ -34,17 +34,8 @@ const Icon = (props) => {
     user: UserIcon,
   };
 
-  const IconComponent = components[props.icon];
-  return <IconComponent {...props} />;
+  const IconComponent = components[props.icon || "arrow"];
+  return <IconComponent {...props} color={props.color || "#C3CAD9"} />;
 };
 
 export default Icon;
-
-Icon.propTypes = {
-  props: PropTypes.shape({
-    icon: PropTypes.string.isRequired,
-    color: PropTypes.string,
-    width: PropTypes.number,
-    classes: PropTypes.string,
-  }),
-};

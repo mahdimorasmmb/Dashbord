@@ -7,7 +7,9 @@ function App({}) {
     <>
       <TopNav />
       <SideNav />
-      {/* <Dashboard /> */}
+      <main>
+        <Dashboard />
+      </main>
     </>
   );
 }
