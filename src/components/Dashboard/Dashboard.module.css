@@ -1,43 +1,36 @@
 .grid {
   height: calc(100vh - 72px - 65px);
+  /* -64px */
   display: grid;
   grid-template-areas:
-    "section1 section2 section3"
-    "section1 section2 section3"
-    "section4 section2 section3"
-    "section4 section5 section3"
-    "section6 section5 section7"
-    "section6 section5 section7"
-    "section6 section5 section7";
+    "section1 section4 section6"
+    "section1 section4 section6"
+    "section2 section4 section6"
+    "section2 section5 section6"
+    "section3 section5 section7"
+    "section3 section5 section7"
+    "section3 section5 section7";
 
   grid-gap: 1rem;
-  margin-top: 1rem;
 }
 .section1 {
   grid-area: section1;
-  background-color: red;
 }
 .section2 {
   grid-area: section2;
-  background-color: chartreuse;
 }
 .section3 {
   grid-area: section3;
-  background-color: chocolate;
 }
 .section4 {
   grid-area: section4;
-  background-color: cornflowerblue;
 }
 .section5 {
   grid-area: section5;
-  background-color: cyan;
 }
 .section6 {
   grid-area: section6;
-  background-color: darkblue;
 }
 .section7 {
   grid-area: section7;
-  background-color: darkorchid;
 }
