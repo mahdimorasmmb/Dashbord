@@ -3,7 +3,9 @@ import styles from "./Dashboard.module.css";
 import Icon from "../Icons/Icon";
 import Card from "../Card/Card";
 import SingleProduct from "../SingleProduct/SingleProduct";
+
 import AirPods from "../../pic/AirPods.jpg";
+import AppleDisplay from "../../pic/AppleDisplay.jpg";
 
 const Dashboard = () => {
   return (
@@ -27,7 +29,15 @@ const Dashboard = () => {
         </div>
         <div className={styles.section2}>
           {" "}
-          <Card headline="Most Viewed Product" />
+          <Card headline="Most Viewed Product">
+            <SingleProduct
+              imgSrc={AppleDisplay}
+              imgAlt="AirPods Pro"
+              amount="8.357"
+              percentage="1.23"
+              icon="eye"
+            />
+          </Card>
         </div>
         <div className={styles.section3}>
           {" "}

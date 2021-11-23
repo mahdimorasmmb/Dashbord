@@ -8,5 +8,5 @@
 
 .headline {
   font-weight: 700;
-  color: #c3cad9;
+  color: var(--main-text);
 }

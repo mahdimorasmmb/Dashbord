@@ -12,18 +12,25 @@ const SingleProduct = ({
   isUpTrend,
 }) => {
   return (
-    <div className={`d-flex   justify-content-between${styles.single}`}>
+    <div
+      className={`d-flex   justify-content-between align-items-center ${styles.single}`}
+    >
       <img className={`${styles.img}`} src={imgSrc} alt={imgAlt} />
       <div>
         <h5 className={styles.amount}>
           <Icon classes="mr-4" icon={icon} />
           {amount}
         </h5>
-        <p className={isUpTrend ? "text-success" : "text-danger"}>
+        <p
+          className={`${styles.precentage_alert} ${
+            isUpTrend && styles.precentage_success
+          }`}
+        >
           <Icon
-            classes="mr-4"
+            classes={`mr-4 ${
+              isUpTrend ? styles.icon_success : styles.icon_alert
+            }`}
             icon={isUpTrend ? "stats" : "downtrend"}
-            color={isUpTrend ? "green" : "red"}
           />
           {percentage} %
         </p>

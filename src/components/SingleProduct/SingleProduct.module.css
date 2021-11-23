@@ -4,5 +4,20 @@
 }
 
 .amount {
-  color: #c3cad9;
+  color: var(--main-text);
+}
+
+.precentage_alert {
+  color: var(--status-alert);
+}
+
+.precentage_success {
+  color: var(--status-success);
+}
+
+.icon_success path {
+  fill: var(--status-success);
+}
+.icon_alert path {
+  fill: var(--status-alert);
 }

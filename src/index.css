@@ -1,3 +1,12 @@
+:root {
+  --main-text: #c3cad9;
+  --main-background: #f7f8fa;
+  --main-divider: #edeff2;
+
+  --status-success: #2dc157;
+  --status-alert: #c12d2d;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +14,7 @@
 }
 
 body {
-  background-color: #f7f8fa;
+  background-color: var(--main-background);
   font-family: "Arimo", sans-serif;
 }
 
