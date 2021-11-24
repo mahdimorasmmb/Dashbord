@@ -1,0 +1,46 @@
+.ranking {
+  color: var(--main-text);
+}
+
+.upTrend path {
+  fill: var(--status-success);
+  stroke: var(--status-success);
+}
+.downTrend {
+  transform: rotate(180deg);
+}
+.downTrend path {
+  fill: var(--status-alert);
+  stroke: var(--status-alert);
+}
+.circle {
+  font-weight: 600;
+  color: var(--main-text);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: var(--main-background);
+  padding-left: 20px;
+}
+.ranking div:nth-child(1) .circle {
+  background-color: #ffe599;
+  color: #cc7429;
+}
+
+.ranking div:nth-child(2) .circle {
+  background-color: #f2f3f5;
+  color: #6b7a99;
+}
+.ranking div:nth-child(3) .circle {
+  background-color: #f5e3d4;
+  color: #cc7429;
+}
+.ranking div:nth-child(4) .circle {
+  background-color: var(--main-background);
+  color: var(--main-text);
+}
+.ranking div:nth-child(5) .circle {
+  background-color: var(--main-background);
+  color: var(--main-text);
+}

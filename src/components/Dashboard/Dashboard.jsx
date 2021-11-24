@@ -6,11 +6,13 @@ import SingleProduct from "../SingleProduct/SingleProduct";
 
 import AirPods from "../../pic/AirPods.jpg";
 import AppleDisplay from "../../pic/AppleDisplay.jpg";
+import profitableSections from "../data/profitableSections.json";
+import Ranking from "../Ranking/Ranking";
 
 const Dashboard = () => {
   return (
     <>
-      <header className="d-flex align-items-center p-4">
+      <header className="d-flex align-items-center p-1">
         <Icon icon="dashboard" width={22} />
         <h5 className="mb-0 ml-2">Dashboard</h5>
       </header>
@@ -41,7 +43,9 @@ const Dashboard = () => {
         </div>
         <div className={styles.section3}>
           {" "}
-          <Card headline="Most Profitable Sections" />
+          <Card headline="Most Profitable Sections">
+            <Ranking data={profitableSections} />
+          </Card>
         </div>
         <div className={styles.section4}>
           {" "}
