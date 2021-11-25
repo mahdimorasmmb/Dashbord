@@ -1,0 +1,33 @@
+[
+    {
+        "name":"Apple Air Pods Pro",
+        "img":"",
+        "profit":"12.5"
+    },
+    {
+        "name":"Samsung Smart Watch",
+        "img":"",
+        "profit":"11.3"
+    },
+    {
+        "name":"Apple Monitor Pro",
+        "img":"",
+        "profit":"9.9"
+    },
+    {
+        "name":"Apple Watch Series 4",
+        "img":"",
+        "profit":"7.8"
+    }
+    ,
+    {
+        "name":"Google Pixel 4 xl",
+        "img":"",
+        "profit":"6.2"
+    },
+    {
+        "name":"Amazon Smart Speaker",
+        "img":"",
+        "profit":"4.8"
+    }
+]

@@ -7,6 +7,9 @@ import SingleProduct from "../SingleProduct/SingleProduct";
 import AirPods from "../../pic/AirPods.jpg";
 import AppleDisplay from "../../pic/AppleDisplay.jpg";
 import profitableSections from "../data/profitableSections.json";
+import profitableCategories from "../data/profitableCategories.json";
+import topSellingProducts from "../data/topSellingProducts.json";
+import topViewedProducts from "../data/topViewedProducts.json";
 import Ranking from "../Ranking/Ranking";
 
 const Dashboard = () => {
@@ -49,15 +52,21 @@ const Dashboard = () => {
         </div>
         <div className={styles.section4}>
           {" "}
-          <Card headline="Most Profitable Categories" />
+          <Card headline="Most Profitable Categories">
+            <Ranking data={profitableCategories} />
+          </Card>
         </div>
         <div className={styles.section5}>
           {" "}
-          <Card headline="Top Selling Products" />
+          <Card headline="Top Selling Products">
+            <Ranking data={topSellingProducts} />
+          </Card>
         </div>
         <div className={styles.section6}>
           {" "}
-          <Card headline="Most Viewed Products" />
+          <Card headline="Most Viewed Products">
+            <Ranking data={topViewedProducts} />
+          </Card>
         </div>
         <div className={styles.section7}>
           {" "}
