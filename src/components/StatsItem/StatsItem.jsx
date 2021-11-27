@@ -4,10 +4,10 @@ import styles from "./StatsItem.module.css";
 
 const StatsItem = ({ number, description }) => {
   return (
-    <>
-      <h2>{number}</h2>
-      <p>{description}</p>
-    </>
+    <div>
+      <h2 className={styles.number}>{number}</h2>
+      <p className={styles.text}>{description}</p>
+    </div>
   );
 };
 

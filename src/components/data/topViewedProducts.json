@@ -1,32 +1,32 @@
 [
     {
         "name":"Apple MacBook Pro 156",
-        "img":"",
+        "img":"./pic/mac.webp",
         "profit":"10"
     },
     {
         "name":"Apple ipod 10.2",
-        "img":"",
+        "img":"./pic/ipad.jpg",
         "profit":"9.2"
     },
     {
         "name":"Microsoft Surface Book",
-        "img":"",
+        "img":"./pic/surface.webp",
         "profit":"8.4"
     },
     {
         "name":"Google Next",
-        "img":"",
+        "img":"./pic/next.jpg",
         "profit":"7.4"
     },
     {
         "name":"Apple iMac Pro",
-        "img":"",
+        "img":"./pic/imac.jpg",
         "profit":"6.3"
     },
     {
         "name":"Samsung Smart Watch",
-        "img":"",
+        "img":"./pic/sm.webp",
         "profit":"5.4"
     }
 ]

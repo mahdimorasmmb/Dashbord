@@ -13,8 +13,12 @@ const Ranking = ({ data }) => {
           className="d-flex  justify-content-between mb-4  align-items-center  "
         >
           <div className="d-flex align-items-center ">
-            <div className={`mr-2 ${styles.circle} `}>{index + 1}</div>
-            <div className="font-weight-bold">{item.name}</div>
+            {item.img ? (
+              <img className={styles.img} src={item.img} alt="" />
+            ) : (
+              <div className={`mr-2 ${styles.circle} `}>{index + 1}</div>
+            )}
+            <div className="ml-2 font-weight-bold">{item.name}</div>
           </div>
           <div>
             {item["upTrend"] === undefined ? (

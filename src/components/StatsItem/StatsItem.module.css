@@ -1,0 +1,9 @@
+.number {
+  color: var(--main-text);
+  font-size: 3rem;
+}
+
+.text {
+  color: var(--main-text);
+  font-weight: 600;
+}

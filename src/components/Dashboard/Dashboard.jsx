@@ -11,6 +11,7 @@ import profitableCategories from "../data/profitableCategories.json";
 import topSellingProducts from "../data/topSellingProducts.json";
 import topViewedProducts from "../data/topViewedProducts.json";
 import Ranking from "../Ranking/Ranking";
+import Stats from "../Stats/Stats";
 
 const Dashboard = () => {
   return (
@@ -70,7 +71,9 @@ const Dashboard = () => {
         </div>
         <div className={styles.section7}>
           {" "}
-          <Card headline="General Statistics" />
+          <Card headline="General Statistics">
+            <Stats />
+          </Card>
         </div>
       </div>
     </>

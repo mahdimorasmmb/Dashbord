@@ -44,3 +44,10 @@
   background-color: var(--main-background);
   color: var(--main-text);
 }
+
+.img {
+  width: 50px;
+  height: auto;
+  max-height: 50px;
+  justify-content: center;
+}
